@@ -1,3 +1,36 @@
 body {
     background-color: rgba(0, 255, 255, 0.082);
 }
+
+/* TODO: Horizontal Navigation Bar */
+/* TODO: Change the colours */
+/* Removing the bullets, margins and padding */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: beige;
+    overflow: hidden;
+}
+
+li a {
+    text-decoration: none;
+    display: block; /* Allowing the block element clickable not just text */
+    text-align: center;
+    color: black;
+    padding: 8px 16px;
+}
+
+/* Change the link color when hovered */
+li a:hover {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* Active link */
+.active{
+    background-color: green;
+    color: white;
+}
+
